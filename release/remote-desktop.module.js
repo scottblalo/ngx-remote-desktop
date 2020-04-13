@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var common_1 = require("@angular/common");
 var core_1 = require("@angular/core");
-var animations_1 = require("@angular/platform-browser/animations");
+//var animations_1 = require("@angular/platform-browser/animations");
 var components_1 = require("./components");
 var NgxRemoteDesktopModule = /** @class */ (function () {
     function NgxRemoteDesktopModule() {
@@ -17,7 +17,7 @@ var NgxRemoteDesktopModule = /** @class */ (function () {
         core_1.NgModule({
             imports: [
                 common_1.CommonModule,
-                animations_1.BrowserAnimationsModule
+                //animations_1.BrowserAnimationsModule
             ],
             declarations: [
                 components_1.RemoteDesktopComponent,
